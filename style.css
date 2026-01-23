@@ -74,3 +74,48 @@ body.dark-mode nav ul li button {
   background-color: #333;
   color: #ffffff;
 }
+
+dialog {
+  background-color: rgb(250,235,215);
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 25px;
+  width: 320px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+dialog h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  font-style: normal;
+}
+
+dialog p {
+  margin: 0;
+  font-style: italic;
+  text-align: center;
+}
+
+dialog button {
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: #333;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  float: right;
+}
+
+dialog button:hover {
+  opacity: 0.9;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
